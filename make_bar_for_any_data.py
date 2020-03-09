@@ -5,6 +5,8 @@ import plotly.io as pio
 
 pio.templates.default = "simple_white"
 
+#Replace this line with the data file of your choice. Enter the full path...
+
 data = pd.read_csv(r"C:\Users\rahul\OneDrive\Desktop\MonthlyToYearly\opencv-sentdex\income_per_person_gdppercapita_ppp_inflation_adjusted.csv")
 
 
